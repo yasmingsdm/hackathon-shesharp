@@ -1,6 +1,3 @@
-.App {
-  text-align: center;
-}
 
 a{
   color:#27E1C1
@@ -9,7 +6,16 @@ a{
 a:hover{
   color:#F5F3C1
 }
+.main{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+/*Sidebar:*/
+.sidebar{
+  background-color: #F5F3C1;
+}
 
+/*Footer:*/
 .footer{
   padding: 40px;
   background-color: #2F0F5D;
@@ -18,6 +24,6 @@ a:hover{
   justify-content: space-between;
 }
 
-.icon{
+.footer_icon{
  padding: 15px;
 }
