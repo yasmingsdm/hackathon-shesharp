@@ -10,6 +10,37 @@ a:hover{
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
+/*Header:*/
+@keyframes rockAndRoll {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-20deg);
+  }
+}
+
+.header{
+  background-color: #2F0F5D;
+  color:#F5F3C1;
+  text-align: center;
+  padding: 20px;
+}
+
+.header h1{
+  padding: 10px;
+  animation-name: rockAndRoll;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
 /*Sidebar:*/
 .sidebar{
   background-color: #F5F3C1;

@@ -3,7 +3,7 @@ import { FaInstagram, FaLinkedin, FaFacebookF } from "react-icons/fa";
 const Footer = ()=>{
     return (
     <footer className="footer">
-       <p>Created by  <a href="https://github.com/yasmingsdm">Yasmin Dal Medico</a> and <a href="https://github.com/vivignutz">Viviane Gnutzmann</a></p> 
+       <p>Created by  <a href="https://github.com/yasmingsdm">Yasmin Dal Medico</a></p> 
        <div>
             <FaInstagram className="footer_icon"/>
             <FaLinkedin className="footer_icon"/>
