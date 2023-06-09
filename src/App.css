@@ -2,3 +2,22 @@
   text-align: center;
 }
 
+a{
+  color:#27E1C1
+}
+
+a:hover{
+  color:#F5F3C1
+}
+
+.footer{
+  padding: 40px;
+  background-color: #2F0F5D;
+  color:white;
+  display:flex;
+  justify-content: space-between;
+}
+
+.icon{
+ padding: 15px;
+}
