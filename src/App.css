@@ -51,6 +51,19 @@ a:hover{
   border-bottom: 2px dotted;
   display: flex;
 }
+/*Jobs:*/
+.jobs{
+  background-color: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:15px;
+  padding:20px
+}
+.job{
+  border:2px solid;
+  background-color: #F5F3C1;
+  padding: 5px
+}
 /*Footer:*/
 .footer{
   padding: 40px;
