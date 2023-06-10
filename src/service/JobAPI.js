@@ -1,16 +1,10 @@
 import axios from 'axios'
 
 export const getAllJobs = async()=>{
-    
-        await axios.get('https://sourcestack-api.com/jobs', {
+        const response = await axios.get('https://sourcestack-api.com/jobs?name=frontend&exact=false', {
             headers: {'x-api-key': '',
-                        'Content-Type': 'application/json'}
+                    'Content-Type': 'application/json'},
           })
-          .then(function (response) {
-            console.log(response);
-          })
-          .catch(function (error) {
-            console.log(error);
-          })
+        return response.data.data
 }
 

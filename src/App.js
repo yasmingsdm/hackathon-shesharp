@@ -10,7 +10,7 @@ function App() {
       <Header/>
       <section className='main'>
         <Sidebar/>
-        {/* <Main/> */}
+        <Main/>
       </section>
       <Footer/>
     </div>
