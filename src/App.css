@@ -51,11 +51,12 @@ a:hover{
   border-bottom: 2px dotted;
   display: flex;
 }
+
 /*Jobs:*/
 .jobs{
   background-color: red;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
   gap:15px;
   padding:20px
 }
@@ -75,4 +76,11 @@ a:hover{
 
 .footer_icon{
  padding: 15px;
+}
+
+/*Responsive*/
+@media screen and (max-width: 700px){
+  .jobs{
+    grid-template-columns: 1fr 1fr ;
+  }
 }
