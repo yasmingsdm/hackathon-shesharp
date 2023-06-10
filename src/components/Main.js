@@ -1,14 +1,18 @@
-// import { getAllJobs } from "../service/JobAPI";
+import { getAllJobs } from "../service/JobAPI";
+import Job from './Job';
 
 
-// const Main = async()=>{
-//     // const jobs = await getAllJobs()
-//     // console.log(jobs)
+const Main = async()=>{
+    const jobs = await getAllJobs()
+    console.log(jobs)
+    
 
+    return (
+        <div className="books">
+        {jobs && jobs.map((job) => (
+                 <Job key={job._id} {...job} />))} 
+       </div>
+    )
+}
 
-//     return (
-//     <h1>h1</h1>
-//     )
-// }
-
-// export default Main;
+export default Main;
