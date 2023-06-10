@@ -44,8 +44,13 @@ a:hover{
 /*Sidebar:*/
 .sidebar{
   background-color: #F5F3C1;
+  padding: 10px;
 }
-
+.sidebar div{
+  padding: 10px 0;
+  border-bottom: 2px dotted;
+  display: flex;
+}
 /*Footer:*/
 .footer{
   padding: 40px;
